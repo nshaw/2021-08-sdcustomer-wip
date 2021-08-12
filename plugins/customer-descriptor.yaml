@@ -2,7 +2,6 @@ name: sd-customer
 image: 'docker.io/entandodemo/customer:0.0.10'
 dbms: none
 healthCheckPath: /management/health
-ingressPath: /customer
 roles:
     - customer-list
 permissions:
