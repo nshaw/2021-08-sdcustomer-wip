@@ -3,4 +3,4 @@ titles:
     en: Signup
     it: Registrazione
 group: free
-customUi: user-form.ftl
+customUiPath: user-form.ftl
