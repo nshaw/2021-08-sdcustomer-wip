@@ -4,9 +4,9 @@ dbms: none
 healthCheckPath: /management/health
 ingressPath: /customer
 roles:
-    - customer-list
+  - customer-list
 permissions:
-    - clientId: realm-management
-      role: manage-users
-    - clientId: realm-management
-      role: view-users
+  - clientId: realm-management
+    role: manage-users
+  - clientId: realm-management
+    role: view-users
